@@ -1,0 +1,22 @@
+# To create the environment please run in powershell:
+# conda env create -f environment.yaml
+
+# Update your packages by running this in powershell:
+# conda env update --file environment.yaml --prune
+
+# To activate the environment, run:
+# conda activate "name"
+# or use the python interpreter selection menu in VS Code
+
+name: Repo_env_name
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy>=1.26
+  - pandas>=2.1
+  - matplotlib>=3.8
+  - ipykernel>=6.29
+  - pip
+  - pip:
