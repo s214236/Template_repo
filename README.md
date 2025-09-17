@@ -1,4 +1,4 @@
-# Testing_repo
+# Template_repo
 This Repo is for testing GitHub functionalities
 
 # How to get
