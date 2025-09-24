@@ -8,6 +8,9 @@
 # conda activate "name"
 # or use the python interpreter selection menu in VS Code
 
+# To add new packages, add them to the environment.yaml file and run the update command above.
+# Check for available version using "pip index versions package-name"
+
 name: Repo_env_name
 channels:
   - conda-forge
