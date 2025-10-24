@@ -26,5 +26,6 @@ dependencies:
   - requests>=2.32
   - matplotlib>=3.8
   - ipykernel>=6.29
+  - setuptools>=80.0
   - pip
   - pip:
